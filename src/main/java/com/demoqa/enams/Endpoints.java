@@ -1,11 +1,13 @@
 package com.demoqa.enams;
 
+import com.demoqa.elements.TextBox;
 import lombok.Getter;
 
 public enum Endpoints {
     ALERT("/alerts"),
-    FRAMES("/frames");
-
+    FRAMES("/frames"),
+TEXTBOX("/text-box"),
+    BUTTON ("/button");
     @Getter
     String endpoint;
 
@@ -13,4 +15,6 @@ public enum Endpoints {
         this.endpoint = endpoint;
 
     }
+
+
 }

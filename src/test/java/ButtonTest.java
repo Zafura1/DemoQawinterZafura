@@ -1,4 +1,6 @@
+import com.demoqa.enams.Endpoints;
 import com.demoqa.helper.WebElementActions;
+import com.demoqa.utils.ConfigReader;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
